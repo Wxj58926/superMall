@@ -18,7 +18,7 @@ export function request(config) {
   // })
   //与上边Promise一样,发送真正的请求
   const instance = axios.create({
-    baseURL: 'http://123.207.32.32:8000',
+    baseURL: 'http://106.54.54.237:8000/api/h8',
     timeout: 5000
   });
 
