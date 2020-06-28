@@ -5,6 +5,7 @@ const Home = () => import('../views/home/Home');
 const Category = () => import('../views/category/Category');
 const ShopCar = () => import('../views/shopcar/ShopCar');
 const My = () => import('../views/my/My');
+const Detail = () => import('../views/detail/Detail');
 
 Vue.use(VueRouter);
 
@@ -24,6 +25,9 @@ const routes = [
   },{
     path:'/my',
     component:My
+  },{
+    path:'/detail:id/',
+    component:Detail
   }
 ];
 
