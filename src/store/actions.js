@@ -11,8 +11,12 @@ export default {
         context.commit(ADD_COUNTER, oldProduct)
         resolve('当前产品数量加1')
       } else {
+<<<<<<< HEAD
         payload.count = 20;
 
+=======
+        payload.count = 1;
+>>>>>>> 77d607bb5ea638278a032e95a5ef9760d38505a9
         // context.state.cartList.push(payload)
         context.commit(ADD_TO_CART, payload)
         resolve('添加新商品')
